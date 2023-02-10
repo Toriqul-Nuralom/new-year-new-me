@@ -121,7 +121,7 @@
 .btn-primery {
     font-size: 20px;
     font-weight: 600;
-    margin: 24px;
+    margin-top: 24px;
     padding: 20px 36px;
     border: 0;
     border-radius: 5px;
@@ -130,7 +130,30 @@
 
 /* Future section styles */
 .Future {
-    /* background-color: black; */
+    background-color: black;
     display: flex;
-    gap: 330px;
+    gap: 30px;
+    align-items: center;
+}
+
+.Future-contener {
+    margin: 130px 230px;
+    color: white;
+}
+
+.Future-contener p {
+    margin-top: 20px;
+}
+
+.Future-contener a {
+    gap: 10px;
+}
+
+input {
+    font-size: 18px;
+    padding-left: 10px;
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 320px;
+    height: 65px;
 }
